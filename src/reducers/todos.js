@@ -1,6 +1,6 @@
-var Immutable = require('immutable');
-var shortid = require('shortid');
-var ActionTypes = require('../constants/ActionTypes');
+import Immutable from 'immutable';
+import shortid from 'shortid';
+import ActionTypes from '../constants/ActionTypes';
 
 const TodoRecord = Immutable.Record({
   id: undefined,

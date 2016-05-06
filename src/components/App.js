@@ -1,12 +1,11 @@
-var React = require('react');
-var {
+import React from 'react';
+import {
   StyleSheet,
   View
-} = require('react-native');
-var shortid = require('shortid');
-var HeaderContainer = require('./HeaderContainer');
-var AddTodoInputContainer = require('./AddTodoInputContainer');
-var TodoListContainer = require('./TodoListContainer');
+} from 'react-native';
+import HeaderContainer from './HeaderContainer';
+import AddTodoInputContainer from './AddTodoInputContainer';
+import TodoListContainer from './TodoListContainer';
 
 class App extends React.Component {
   render() {

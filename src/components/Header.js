@@ -1,9 +1,9 @@
-var React = require('react');
-var {
+import React from 'react';
+import {
   StyleSheet,
   Text,
   View
-} = require('react-native');
+} from 'react-native';
 
 class Header extends React.Component {
 

@@ -1,8 +1,8 @@
-var React = require('react');
-var { bindActionCreators } = require('redux');
-var { connect } = require('react-redux');
-var TodoList = require('./TodoList');
-var { toggleTodo, editTodo, deleteTodo } = require('../actions/TodoActions');
+import  React from 'react';
+import  { bindActionCreators } from 'redux';
+import  { connect } from 'react-redux';
+import  TodoList from './TodoList';
+import  { toggleTodo, editTodo, deleteTodo } from '../actions/TodoActions';
 
 class TodoListContainer extends React.Component {
   render() {

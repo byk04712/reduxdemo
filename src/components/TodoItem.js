@@ -1,5 +1,5 @@
-var React = require('react');
-var {
+import React from 'react';
+import {
   StyleSheet,
   SwitchAndroid,
   SwitchIOS,
@@ -7,8 +7,8 @@ var {
   TouchableOpacity,
   View,
   Platform
-} = require('react-native');
-var Input = require('./Input');
+} from 'react-native';
+import Input from './Input';
 
 class TodoItem extends React.Component {
 

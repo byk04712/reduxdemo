@@ -1,13 +1,13 @@
-var React = require('react');
-var {
+import React from 'react';
+import {
   ListView,
   StyleSheet,
   View
-} = require('react-native');
-var Immutable = require('immutable');
-var TodoItem = require('./TodoItem');
+} from 'react-native';
+import Immutable from 'immutable';
+import TodoItem from './TodoItem';
 
-var ds = new ListView.DataSource({
+const ds = new ListView.DataSource({
   rowHasChanged: (r1, r2) => r1 !== r2
 });
 

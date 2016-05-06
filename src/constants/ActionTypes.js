@@ -1,4 +1,4 @@
-var constants = require('flux-constants');
+import constants from 'flux-constants';
 
 module.exports = constants([
   'ADD_TODO',

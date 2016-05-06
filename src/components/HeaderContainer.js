@@ -1,6 +1,6 @@
-var React = require('react');
-var { connect } = require('react-redux');
-var Header = require('./Header');
+import React from 'react';
+import { connect } from 'react-redux';
+import Header from './Header';
 
 class HeaderContainer extends React.Component {
   render() {

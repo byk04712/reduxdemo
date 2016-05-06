@@ -1,8 +1,8 @@
-var React = require('react');
-var {
+import React from 'react';
+import {
   StyleSheet,
   TextInput
-} = require('react-native');
+} from 'react-native';
 
 class Input extends React.Component {
 
