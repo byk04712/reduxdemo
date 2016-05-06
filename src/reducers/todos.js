@@ -36,7 +36,8 @@ const DEFAULT_TODOS = [
 ].map(_createTodoRecord);
 
 module.exports = (state = Immutable.List(DEFAULT_TODOS), action) => {
-  console.log('action=', action);
+  console.log('state => ', state);
+  console.log('action => ', action);
   switch (action.type) {
     case ActionTypes.ADD_TODO:
       return _addTodo(state, action.content);

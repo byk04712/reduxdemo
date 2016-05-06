@@ -1,4 +1,4 @@
-var React = require('react-native');
+var React = require('react');
 var { bindActionCreators } = require('redux');
 var { connect } = require('react-redux');
 var Input = require('./Input');
