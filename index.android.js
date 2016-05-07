@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {
-    AppRegistry
+	AppRegistry
 } from 'react-native';
 
-import AppContainer from './src/components/AppContainer';
+import AppContainer from './src/index';
 
 AppRegistry.registerComponent('reduxdemo', () => AppContainer);
